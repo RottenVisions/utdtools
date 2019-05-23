@@ -28,61 +28,67 @@ namespace UsertypeDefTools.Widget
 		/// </summary>
 		private void InitializeComponent()
 		{
-			this.label1 = new System.Windows.Forms.Label();
-			this.m_txt_typeName = new System.Windows.Forms.TextBox();
-			this.label2 = new System.Windows.Forms.Label();
-			this.m_cbb_realType = new System.Windows.Forms.ComboBox();
-			this.SuspendLayout();
-			//
-			// label1
-			//
-			this.label1.AutoSize = true;
-			this.label1.Location = new System.Drawing.Point(18, 13);
-			this.label1.Name = "label1";
-			this.label1.Size = new System.Drawing.Size(59, 12);
-			this.label1.TabIndex = 0;
-			this.label1.Text = "TypeName:";
-			//
-			// m_txt_typeName
-			//
-			this.m_txt_typeName.Location = new System.Drawing.Point(117, 10);
-			this.m_txt_typeName.Name = "m_txt_typeName";
-			this.m_txt_typeName.Size = new System.Drawing.Size(148, 21);
-			this.m_txt_typeName.TabIndex = 1;
-			this.m_txt_typeName.TextChanged += new System.EventHandler(this.m_txt_typeName_TextChanged);
-			//
-			// label2
-			//
-			this.label2.AutoSize = true;
-			this.label2.Location = new System.Drawing.Point(18, 40);
-			this.label2.Name = "label2";
-			this.label2.Size = new System.Drawing.Size(59, 12);
-			this.label2.TabIndex = 2;
-			this.label2.Text = "RealType:";
-			//
-			// m_cbb_realType
-			//
-			this.m_cbb_realType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-			this.m_cbb_realType.FormattingEnabled = true;
-			this.m_cbb_realType.Location = new System.Drawing.Point(117, 37);
-			this.m_cbb_realType.Name = "m_cbb_realType";
-			this.m_cbb_realType.Size = new System.Drawing.Size(148, 20);
-			this.m_cbb_realType.TabIndex = 3;
-			this.m_cbb_realType.SelectedIndexChanged += new System.EventHandler(this.m_cbb_realType_SelectedIndexChanged);
-			//
-			// AliasTypeWidget
-			//
-			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
-			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.Controls.Add(this.m_cbb_realType);
-			this.Controls.Add(this.label2);
-			this.Controls.Add(this.m_txt_typeName);
-			this.Controls.Add(this.label1);
-			this.Name = "AliasTypeWidget";
-			this.Size = new System.Drawing.Size(284, 67);
-			this.ResumeLayout(false);
-			this.PerformLayout();
+            this.label1 = new System.Windows.Forms.Label();
+            this.m_txt_typeName = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.m_cbb_realType = new System.Windows.Forms.ComboBox();
+            this.SuspendLayout();
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(36, 27);
+            this.label1.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(122, 25);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "TypeName:";
+            // 
+            // m_txt_typeName
+            // 
+            this.m_txt_typeName.Location = new System.Drawing.Point(234, 21);
+            this.m_txt_typeName.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.m_txt_typeName.Name = "m_txt_typeName";
+            this.m_txt_typeName.Size = new System.Drawing.Size(292, 31);
+            this.m_txt_typeName.TabIndex = 1;
+            this.m_txt_typeName.TextChanged += new System.EventHandler(this.m_txt_typeName_TextChanged);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(36, 83);
+            this.label2.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(110, 25);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "RealType:";
+            // 
+            // m_cbb_realType
+            // 
+            this.m_cbb_realType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.m_cbb_realType.FormattingEnabled = true;
+            this.m_cbb_realType.Location = new System.Drawing.Point(234, 77);
+            this.m_cbb_realType.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.m_cbb_realType.Name = "m_cbb_realType";
+            this.m_cbb_realType.Size = new System.Drawing.Size(292, 33);
+            this.m_cbb_realType.TabIndex = 3;
+            this.m_cbb_realType.SelectedIndexChanged += new System.EventHandler(this.m_cbb_realType_SelectedIndexChanged);
+            // 
+            // AliasTypeWidget
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Controls.Add(this.m_cbb_realType);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.m_txt_typeName);
+            this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.Name = "AliasTypeWidget";
+            this.Size = new System.Drawing.Size(568, 140);
+            this.ResumeLayout(false);
+            this.PerformLayout();
 
 		}
 

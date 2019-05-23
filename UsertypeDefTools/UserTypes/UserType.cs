@@ -51,6 +51,8 @@ public class BaseType : IType
         AllTypes.Add(new BaseType("MAILBOX"));
         AllTypes.Add(new BaseType("BLOB"));
 
+        AllTypes.Add(new BaseType("ENTITYCALL"));
+
         BaseTypeCount = AllTypes.Count;
     }
 
